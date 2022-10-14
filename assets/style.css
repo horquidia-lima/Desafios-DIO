@@ -32,3 +32,45 @@ button {
     border: none;
     outline: none;
 }
+
+/* header */
+
+header {
+    width: 80%;
+    max-width: 1024px;
+
+    margin: 0 auto;
+    padding-block: 3rem;
+}
+
+main {
+    width: 80%;
+    max-width: 1024px;
+
+    margin: 0 auto;
+}
+
+main ul {
+    padding-block: 1rem;
+}
+
+section .primeira-geracao {
+    display: flex;
+
+    margin-bottom: 2rem;
+}
+
+section div {
+    padding-block: 2rem;
+}
+
+section h3, #intro {
+    margin-bottom: 2rem;
+}
+
+section .links {
+    display: flex;
+    flex-direction: column;
+
+    color: blue;
+}

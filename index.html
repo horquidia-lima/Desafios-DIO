@@ -8,9 +8,104 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    </header>
+    <hr />
+
+    <main>
+        <h2>Índice</h2>
+
+        <ul>
+            <li><a href="#historia">História dos computadore</a></li>
+            <li><a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a></li>
+            <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+            <li><a href="#links">Links de referências</a></li>
+        </ul>
+
+        <section>
+            <h2 id="historia">História dos computadores</h2>
+
+            <p id="intro">A primeira geração de computadores automáticos de uso geral surgiu durante a Segunda Guerra Mundial, com a necessidade de realizar um grande número de cálculos e decifrar mensagens. Abaixo alguns computadores que marcaram geração.</p>
+
+            <h3>👩‍💻​ 1° Geração</h4>
+            <div class="primeira-geracao">
+                <p><strong>ENIAC</strong> foi um dos primeiros computadores eletrônicos a serem desenvolvidos. Sua construção começou na Pensilvânia em 1943 e foi apresentado ao público em 1946. O mesmo tinha a funcionalidade de realizar uma grande quantidade de cálculos. O ENIAC foi projetado pelos engenheiros <i>John W. Mauchly e John Presper Eckert</i>, mas foram seis mulheres que fizeram toda a programação deste computador. Graças a essas seis mulheres <i>(Betty Snyder Holberton, Jean Jennings Bartik, Kathleen McNulty Mauchly Antonelli, Marlyn Wescoff Meltzer, Ruth Lichterman Teitelbaum e Frances Bilas Spence)</i> a programação é algo mais acessível a todos.</p>
+                <img src="./assets/img/eniac.jpg" alt="foto do computado ENIAC e 3 mulheres trabalhando com o mesmo" width="300px">
+            </div>
+
+            <div class="primeira-geracao">
+                <p><strong>Mark I</strong> foi o primeiro computador eletrônico dos EUA. O mesmo foi apresentado à IBM por <i>Howard Aiken</i> em 1937, porém, a IBM só iniciou seu desenvolvimento em 1939 e concluiu em 1944. Foi no processo de construção do Mark II que o termo <mark>"bug"</mark> surgiu, conceito esse usado para descrever um problema computacional.</p>
+                <img src="./assets/img/markI.jpg" alt="foto do computado Mark I, desenvolvido por IBM em 1944" width="300px">
+            </div>
+
+            <div class="primeira-geracao"> 
+                <p><strong>Colossus</strong> foi desenvolvido em 1939 por alguns cientistas britânicos, incluindo <i>Turing e Thomas H. Flowers</i>. 💜​Turing, considerado por muitos hoje como o pai da computação, foi o responsável pelo projeto eletromecânico <u>Bombe</u> que permitiu decifrar enigmas alemães, ajudando assim com o fim da Segunda Guerra Mundial. Além disso, o Colossus foi o primeiro computador que combinou operação digital, eletrônica e programável.</p>
+                <img src="./assets/img/colossus.jpg" alt="foto do computador Colossus" width="300px">
+            </div>
+
+            <h3>👩‍💻 2° Geração</h3>
+            
+            <div>
+                <p>Os computadores da segunda geração (1959-1965) já funcionavam por meio de transistores, mas ainda eram muito grandes.</p>
+                <img src="./assets/img/segunda-geracao.jpg" alt="foto de um computador da segunda geracao de 1959 a 1965" width="300px">
+            </div>
+
+            <h3>👩‍💻 3° Geração</h3>
+
+            <div>
+                <p>A terceira geracao de computadores se inicia em 1965 e vai até 1975. Aqui os os transistores foram substituidos por circuitos integrados, dando vida aos computadores pessoais</p>
+                <img src="./assets/img/terceira-geracao.jpg" alt="foto de um computador da terceira geracao" width="300px">
+            </div>
+
+            <h3>👩‍💻 4° Geração (1975-até os dias atuais)</h3>
+            <div>
+                <p>Com o crescimento exponencial da tecnologia e a criação de microchips, os computadores tornaram-se cada vez menores e com um poder de processamento e funcionalidade gigantesco.</p>
+                <img src="./assets/img/novos-computadoras-1.jpeg" alt="" width="300px">
+            </div>
+        </section>
+
+        <section>
+            <h2 id="estrutura-html">Como é uma estrutura básica de um HTML?</h2>
+
+            <div>
+                <blockquote cite="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica">
+                    <p> Os elementos HTML ou também chamados de tags HTML, são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros. As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing)</p>
+                </blockquote>
+                <img src="./assets/img/codigo.png" alt="imagem de tag html">
+            </div>
+        </section>
+
+        <section>
+            <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+
+            <div>
+                <blockquote cite="https://www.devmedia.com.br/trabalhando-com-listas-ordenadas-no-html/21739">
+                    <p>Lista é um importante recurso de HTML, pois permite criarmos tópicos de textos para uma melhor exemplificação de um determinado assunto. Existe dois tipos de listas: Não ordenada e Ordenada ou numerada</p>
+                </blockquote>
+                <h4>As tags usadas para criar uma lista não ordenada são ul e li</h4>
+                <img src="./assets/img/lista-nao-ordenada.png" alt="foto de uma lista nao ordenada html">
+
+                <h4>As tags usadas para criar uma lista ordenada são ol e li</h4>
+                <img src="./assets/img/lista-ordenada.png" alt="foto de uma lista ordenada html">
+
+
+            </div>
+        </section>
+
+        <section>
+            <h2 id="links">Links de referências</h2>
+
+            <div class="links">
+                <u><a href="https://www.devmedia.com.br/trabalhando-com-listas-ordenadas-no-html/21739" target="_blank">devmedia</a></u>
+                <u><a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica" target="_blank">alura</a></u>
+                <u><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote" target="_blank">developer mozila</a></u>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
